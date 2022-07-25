@@ -9,7 +9,7 @@ import datetime
 from flask_mail import Mail, Message
 import os
 from wtforms.fields.html5 import EmailField
-
+ 
 app = Flask(__name__)
 app.secret_key = os.urandom(24)
 app.config['UPLOADED_PHOTOS_DEST'] = 'static/image/product'
