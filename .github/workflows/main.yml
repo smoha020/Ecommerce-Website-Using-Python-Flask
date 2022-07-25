@@ -11,4 +11,4 @@ jobs:
       uses: kitabisa/sonarqube-action@master
       with:
         host: ${{ secrets.SONAR_HOST_URL }}
-        login: ${{ secrets.SONAR_TOKEN }}
+        login: ${{ secrets.SONAR_TOKEN }} 
